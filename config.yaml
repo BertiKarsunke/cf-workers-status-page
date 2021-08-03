@@ -16,9 +16,9 @@ settings:
 
 monitors:
   - id: mygrow-co # unique identifier
-    name: workers.cloudflare.com
+    name: mygrow-co
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'mygrow.co' # URL to fetch
+    url: 'http://mygrow.co' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
